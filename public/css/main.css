@@ -2817,66 +2817,83 @@ span.stButton_gradient,
 }
 
 .user-wrapper {
-	margin-top: 50px;
-}
-.user {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	transition: all 0.3s;
-}
-
-.hide {
-	opacity: 0;
-	top: 0;
-	left: 0;
-	transform: scale(0);
-	position: absolute;
-}
-
-.circle {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-bottom: 20px;
-	transition: all 0.3s;
-}
-
-.developer .circle {
-	background-color: cyan;
-}
-.developer .circle .prateek {
-	background-color: cyan;
-}
-
-.designer .circle {
-	background-color: magenta;
-}
-
-.consultant .circle {
-	background-color: gold;
-}
-.graphics .circle {
-	background-color: gold;
-}
-
-.management .circle {
-	background-color: black;
-}
-.anjaliImage {
-	background-image: url("images/aboutus/prateek.jpg");
-}
-.retrictImage {
-	width: 250px;
-	border-radius: 50%;
-	transition: all 0.3s;
-	background-repeat: no-repeat;
-	margin: 0 auto;
-	background-position: center;
-}
-.teamicon {
-	padding-left: 10px;
-}
-.navbar-nav {
-	margin-top: 30px;
-}
+  margin-top: 50px;}
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s;}
+    
+    .hide {
+      opacity: 0;
+      top: 0;
+      left: 0;
+      transform: scale(0);
+      position: absolute;
+    }
+    
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      transition: all 0.3s;
+    }
+    
+    .developer .circle {
+        background-color: cyan;
+      
+    }
+    .developer .circle .prateek{
+      background-color: cyan;
+      
+    
+  }
+    
+    .designer .circle{
+       
+        background-color: magenta;
+      
+    }
+    
+    .consultant .circle{
+       
+        background-color: gold;
+      
+    }
+    .graphics .circle{
+      background-color: gold;
+    }
+    
+    .management .circle{
+       
+        background-color: black;
+      
+    }
+   .anjaliImage{
+      background-image: url("images/aboutus/prateek.jpg");
+    }
+    .retrictImage {
+      width: 250px;
+      border-radius: 50%;
+      transition: all 0.3s;
+      background-repeat: no-repeat;
+      margin:0 auto;
+      background-position: center;
+    }
+    .teamicon{
+      padding-left: 10px;
+      
+    }
+@media only screen and (max-width:768px){
+  /*for mobiles*/
+  .video-container{
+    width:100%;
+  }
+  .tour-button{
+    background-position:bottom left ;
+  }
+  .col-sm-12{
+    margin-top:200px
+  }
+} 
